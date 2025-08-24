@@ -20,3 +20,4 @@ resource "azurerm_network_interface" "private_gateway" {
     private_ip_address            = var.private_gateway_reserved_ip
   }
 }
+
